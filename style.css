@@ -3,12 +3,18 @@
 
 body {
 	font-family: 'Nunito', sans-serif;
-	background-image: url("assets/web-images/landing-background.jpg");
-	background-color: #47aadf;
-	background-size: cover;
-
 }
 
+/*-------------------------------------------------BACKGROUNDS FOR DIFFERENT PAGES*/
+.home-bg {
+	background: url(assets/web-images/landing-background.jpg);
+	background-size: cover;
+}
+
+.about-bg {
+	background: url(assets/web-images/about-background.jpg);
+	background-size: cover;
+}
 
 /*-------------------------------------------------NAVIGATION*/
 .nav-wrapper {
@@ -130,9 +136,7 @@ body {
 /*-------------------------------------------------Parralax*/
 
 .parallax {
-	
 	width: 100%;
-
 }
 
 /*-------------------------------------------------Landing page Video*/
@@ -249,4 +253,25 @@ body {
 	text-align: center;
 	font-size: 13px;
 	color: #fafafa;
+}
+
+/*-------------------------------------------------About description*/
+
+.about-text{
+margin-top: 25px;
+}
+
+.about-paragraph {
+	text-align: justify;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-weight: 600;
+	line-height: 20px;
+}
+
+/*-------------------------------------------------About page buttons*/
+
+.about-wrapper {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
 }
