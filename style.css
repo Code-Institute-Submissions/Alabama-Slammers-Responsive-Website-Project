@@ -104,3 +104,14 @@ body {
 
 
 
+.footer {
+	background-color: #f36161;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.icon {
+	padding-right: 20px;
+}
+
