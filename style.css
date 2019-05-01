@@ -118,10 +118,13 @@ body {
 	padding-right: 20px;
 }
 
-/*-------------------------------------------------Parralax*/
+/*-------------------------------------------------Aligment for all body items (mobile)*/
 .body-content {
 	margin: 15px;
 }
+
+/*-------------------------------------------------Parralax*/
+
 .parallax {
 	
 	width: 100%;
@@ -137,11 +140,48 @@ body {
 	height: 250px;
 }
 
+
+/*-------------------------------------------------Full width buttons*/
+
+
 .btn-secondary {
     color: #fafafa;
     background-color: #f06060;
-    border-color: #f06060;
+    border: none;
+    box-shadow: none;
     font-family: 'Nunito', sans-serif;
     letter-spacing: 0.2em;
     font-weight: 300;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0;
+    font-size: 15px;
+}
+
+.button-link:hover {
+	text-decoration: none;
+}
+
+.btn-secondary:hover {
+	background-color: #4cabdb;
+	color: #e6e66e;
+}
+
+/*-------------------------------------------------BUY CD*/
+
+.cd-wrapper {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin-top: 15px;
+
+}
+
+.cd-cover {
+	width: 100%;
+	height: auto;
+}
+
+.songs {
+	line-height: 15px;
+	font-size: 12px;
 }
