@@ -3,9 +3,12 @@
 
 body {
 	font-family: 'Nunito', sans-serif;
+	background-image: url("assets/web-images/landing-background.jpg");
 	background-color: #47aadf;
 	background-size: cover;
+
 }
+
 
 /*-------------------------------------------------NAVIGATION*/
 .nav-wrapper {
@@ -14,7 +17,7 @@ body {
 	grid-template-columns: 1fr;
 	padding: 20px;
 	margin: 0;
-	}
+}
 
 .nav-wrapper ul {
 	text-align: right;
@@ -36,12 +39,12 @@ body {
 .nav-wrapper a:hover{
 	cursor: pointer;
 	color: #f35f5f;
-		
+
 }
 
 .list-item {
 	padding: 10px 0;
-		
+
 }
 
 .dropdown-content {
@@ -63,7 +66,7 @@ body {
 	text-decoration: none;
 	display: block;
 	transition-duration: 1s;
-    transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
 }
 
 
@@ -115,7 +118,8 @@ body {
 }
 
 .icon {
-	padding-right: 20px;
+	width: 60px;
+	height: auto;
 }
 
 /*-------------------------------------------------Aligment for all body items (mobile)*/
@@ -145,17 +149,17 @@ body {
 
 
 .btn-secondary {
-    color: #fafafa;
-    background-color: #f06060;
-    border: none;
-    box-shadow: none;
-    font-family: 'Nunito', sans-serif;
-    letter-spacing: 0.2em;
-    font-weight: 300;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin: 0;
-    font-size: 15px;
+	color: #fafafa;
+	background-color: #f06060;
+	border: none;
+	outline:none;
+	font-family: 'Nunito', sans-serif;
+	letter-spacing: 0.2em;
+	font-weight: 300;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0;
+	font-size: 15px;
 }
 
 .button-link:hover {
@@ -184,4 +188,65 @@ body {
 .songs {
 	line-height: 15px;
 	font-size: 12px;
+}
+
+/*-------------------------------------------------SUBSCRIBE*/
+
+#subscribe-form {
+	width: 100%;
+	background-color: #46a9e0;
+	margin-top: 2px;
+	border-radius: 3px;
+	padding: 0;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.email {
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	background-color: #99c8a4;
+	border:none;
+	text-align: center;
+	width: 70%;
+}
+
+.subscribe {
+	background-color: transparent;
+	border: none;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 200;
+	color: #fafafa;	
+	margin: auto;
+}
+
+::placeholder { 
+	color: #fafafa;
+	letter-spacing: 2px;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 100;
+}
+
+.subscribe-text {
+	background-color: #46a9e0;
+	padding: 5px;
+	margin-top: 15px;
+	border-radius: 3px;
+}
+
+.subscribe-text h5{
+	text-align: center;
+	letter-spacing: 1.5px;
+	color: #e6e66e;
+	margin-top: 10px;
+	font-weight: 600;
+}
+
+.subscribe-text p{
+	text-align: center;
+	font-size: 13px;
+	color: #fafafa;
 }
