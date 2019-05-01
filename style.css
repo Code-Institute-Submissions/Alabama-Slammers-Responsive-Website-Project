@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
 body {
 	font-family: 'Nunito', sans-serif;
 	background-color: #47aadf;
@@ -115,3 +118,30 @@ body {
 	padding-right: 20px;
 }
 
+/*-------------------------------------------------Parralax*/
+.body-content {
+	margin: 15px;
+}
+.parallax {
+	
+	width: 100%;
+
+}
+
+/*-------------------------------------------------Landing page Video*/
+
+
+.landing-video {
+	margin-top: 20px;
+	width: 100%;
+	height: 250px;
+}
+
+.btn-secondary {
+    color: #fafafa;
+    background-color: #f06060;
+    border-color: #f06060;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.2em;
+    font-weight: 300;
+}
