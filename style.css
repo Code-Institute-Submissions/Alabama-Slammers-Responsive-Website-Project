@@ -258,7 +258,7 @@ body {
 /*-------------------------------------------------About description*/
 
 .about-text{
-margin-top: 25px;
+margin-top: 50px;
 }
 
 .about-paragraph {
@@ -272,6 +272,30 @@ margin-top: 25px;
 /*-------------------------------------------------About page buttons*/
 
 .about-wrapper {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
+display: flex;
+justify-content: center;
 }
+
+.small-button {
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+
+}
+
+.small-button button {
+	background-color: #f36260;
+	border: solid 1px #f36260;
+	border-radius: 5px;
+	padding: 5px 0 5px 0;
+	color: #fafafa;
+	letter-spacing: 2px;
+	font-weight: 300;
+	outline: none;
+}
+
+.small-button button:hover {
+	background-color: #4aabdc;
+	border: solid 1px #4aabdc;
+}
+
