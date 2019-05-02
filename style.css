@@ -6,7 +6,7 @@ body {
 }
 
 /*-------------------------------------------------BACKGROUNDS FOR DIFFERENT PAGES*/
-.home-bg {
+.home-bg, .music-bg {
 	background: url(assets/web-images/landing-background.jpg);
 	background-size: cover;
 }
@@ -15,6 +15,8 @@ body {
 	background: url(assets/web-images/about-background.jpg);
 	background-size: cover;
 }
+
+
 
 /*-------------------------------------------------NAVIGATION*/
 .nav-wrapper {
@@ -299,3 +301,10 @@ justify-content: center;
 	border: solid 1px #4aabdc;
 }
 
+/*-------------------------------------------------Spotify*/
+
+.spotify-playlist {
+	margin-top: 5px;
+}
+
+/*-------------------------------------------------Spotify*/
