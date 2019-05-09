@@ -6,7 +6,7 @@ body {
 }
 
 /*-------------------------------------------------BACKGROUNDS FOR DIFFERENT PAGES*/
-.home-bg, .music-bg {
+.home-bg, .music-bg, .pictures-bg {
 	background: url(assets/web-images/landing-background.jpg);
 	background-size: cover;
 }
@@ -19,6 +19,10 @@ body {
 .contact-bg {
 	background: url(assets/web-images/contact-background.jpg);
 	background-size: cover;
+}
+
+.tour-bg {
+	background-color: #4babdd;
 }
 
 
@@ -78,7 +82,7 @@ body {
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
-	transition-duration: 1s;
+	transition-duration: 400ms;
 	transition-timing-function: ease-in-out;
 }
 
@@ -116,6 +120,20 @@ body {
 .mobile-hide{
 	display: none;
 
+}
+
+
+
+.main-nav, .mobile-hide, .mobile-show > ul {
+	display: block;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 600ms ease-in-out;
+}
+
+.main-nav.toggled, .mobile-show, .mobile-hide > ul {
+	max-height: 200px;
+	transition: max-height 600ms ease-in-out;
 }
 
 
@@ -319,6 +337,14 @@ body {
 	height: 200px;
 }
 
+/*-------------------------------------------------Pictures*/
+
+.band-picture {
+	width: 100%;
+	height: auto;
+	margin-top: 10px;
+}
+
 /*-------------------------------------------------Contact forms*/
 
 .form-control {
@@ -431,3 +457,49 @@ body {
 	color: #e8e66b;
 	font-weight: 500;
 }
+
+
+/*-------------------------------------------------Tour list*/
+
+.tour {
+	
+	text-align: center;
+	color: #fafafa;
+	background-color: #439ecb;
+	padding: 10px 0px;
+}
+
+
+.event-date {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.event {
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.event-place {
+	font-weight: 600;
+	font-size: 17px;
+}
+
+.tickets {
+	margin-top: 10px;
+	padding: 10px 30px;
+	font-weight: 500;
+	font-size: 20px;
+	border-radius: 5px;
+	border-color: #cc435f;
+	background-color: #cc435f;
+	color: #fafafa;
+	border: none;
+
+}
+
+hr {
+	border: 1px solid #fafafa;
+	margin: 0;
+}
+
