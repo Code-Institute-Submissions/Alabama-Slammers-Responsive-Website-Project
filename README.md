@@ -2,29 +2,29 @@
 
 A Website created in order to represent an online presence for a 90's rockabilly/ swing band "Alabama Slammers".
  
-## UX
+UX
  
-The website was designed for band's current, returning and prospect fans, people that like rockabilly and swing music from the '90s and like to be thrown back to that period of time and for those who are looking for a band to book for an event or would like to feature "Alabama Slammers".
+Website was designed for band's current, returning and prospect fans, people that like rockabilly and swing music from 90's and like to be throwed back to that period of time and for those who are looking for a band to book for an event or would like to feature "Alabama Slammers".
 
-Website users are visiting the site in order to keep updated with what the band is up to, follow tour dates and purchase tickets, check new CD releases and purchase them, check out video and photo galleries as well as to listen to band's music. They might also want to contact the band for press coverage and/ or book the band for an event.
+Website users are visiting the site in order to keep updated with what the band is up to, follow tour dates and purchase tickets, check new CD relieces and purchase them, check out video and photo gallaries as well as to listen to band's music. They might also want to contact band for press coverage and/ or book the band for an event.
 
- Website is responsive, understandable and easy to use. All the sections are clearly identified in the navigation and presented on its own page. links to external sources provided, there is no unnecessary content, therefore, the user is always aware of where they are, how they got there and how to go back. It is clearly identified by using buttons and forms of what is expected from a user to achieve desired results. The website design was inspired by 90's decade, color palette and fonts used were intended to create a feel of 90's aesthetic while still be relatable and appealing for a modern user. There was no unnecessary decoration used in order to maintain a clean design which is aesthetically appealing and relevant.
+ Website is responsive, understandable and easy to usse. All the sections are clearly identified in the navigation and presented on it's own page. links to external sources provided, there is no uneccesary content therefore user is always aware of where they are, how they got there and how to go back. It is clearly identified by using buttons and forms of what is expected from a user to acheive desired results. Website design was inspired by 90's decade, colour palette and fonts used were intended to create a feel of 90's aesthetic while still be relatable and appealing for a modern user. There was no unecessary decoration used in order to maintain a clean design which is aesthetically apealing and relavent.
 
-- As an old fan of the band, I want to be able to access tour dates and see the newest gigs first, I want easy access to buy tickets fast, I also want to be updated about any news regarding the band via email.
+- As an old fan of the band, I want to be able to access tour dates and see the newest gigs first, I want an easy access to buy tickets fast, I also want to be updated about any news regarding the band via email.
 
-- As a new fan, I want to be able to learn more about the band and check out media I haven't seen, heard before and purchase a CD.
+- As a new fan I want to be able to learn more about the band and check out media I haven't seen, heard before and purchase a CD.
 
-- As the writer for a music blog, I would like to feature a band, therefore, I need to find a correct person to contact for this purpose.
+- As the writter for a music blog I would like to feature a band there fore I need to find a correct person to contact for this purpose.
 
-- As a person who is organizing a wedding party, I need to know who is the right person to contact in order to hire this band.
+- As a person who is organising a wedding party I need to know who is a right person to contact in order tohire this band.
 
-Please check out /wireframes folder included familiarizing with design choices that were created before building a website.
+Please check out /wireframes folder included to familiarize with design choices that were created before building a website.
 
-The website is fully responsive. The desktop version has more visual information and more complex layout while in mobile version content is stacked and less visual elements are used in order to save space creating less scrolling, therefore better user experience. Through the navigation user is able to access: contact page which consists of two contact forms for different purposes (forms require the user to input information, however, they don't actually send a message), 
-media page which allows the user to check out pictures, videos and music, tour page where latest tour dates are displayed and from where user can purchase tickets (on the push of the button user is directed to a page where tickets are sold),
+The website is fully responsive. Desktop version has more visual information and more complex layout while in mobile version content is stacked and less visual elements are used in order to save space creating less scrolling, there fore better user experience. Through the navigation user is able to access: contact page which consists of two contact forms for different purpouses (forms require user to input information, however they don't actually send message), 
+media page which allows user to check out pictures,videos and music, tour page where latest tour dates are displayed and from where user can purchase tickets (on the push of the button user is directed to a page where tickets are sold),
 about page where a brief bio of the band is displayed.
-Once pressed on the logo user is directed back to a landing page where they can watch a video and if interested press a button to watch more and be redirected to videos page, user can always buy a CD and subscribe to a mailing list (anybody that subscribed won't actually receive an email).
-Footer consists of social media links (as the band is no longer existent these links lead to the main pages of each social media platform).
+Once pressed on the logo user is directed back to landing page where they can watch a video and if interested press a button to watch more and be redirected to videos page, user can always buy a CD and subscribe to a mailing list (anybody that subscribed won't actually receive an email).
+Footer consists of social media links (as the band is no longer existant these links lead to the main pages of each social media platform).
 
 
 Technologies Used
@@ -32,16 +32,14 @@ Technologies Used
 HTML5
 CSS3
 Bootstrap https://getbootstrap.com/  used to create some buttons and other design elements
-GIT https://git-scm.com/  used to upload work to the local repository
-GITHUB https://github.com/  used to upload work to the remote repository
+GIT https://git-scm.com/  used to upload work to local repository
+GITHUB https://github.com/  used to upload work to remote repository
 Google Chrome developer tools used to inspect the code and make design decisions
 Sublime Text https://www.sublimetext.com/
 Javascript for a hamburger icon used for mobile.
 
 
-## Testing
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part, you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+Testing
 
 Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
 
@@ -61,16 +59,37 @@ If this section grows too long, you may want to split it off into a separate fil
 
 Deployment
 
-The website was coded in Sublime Text code editor, a local GIT directory was used for version control and then uploaded to GITHUB using https://git-scm.com/. Once uploaded to GITHUB repositories it was made live using GITHUB Pages. The website can be found at https://################.com
+Website was coded in Sublime Text code editor, a local GIT directory was used for version control and then uploaded to GITHUB using https://git-scm.com/. Once uploaded to GITHUB repositories it was made live using GITHUB Pages. The website can be found at: https://################.com
 
-## Credits
+Credits
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+I have used JS part of code from the book "Super Hi" to make my hamburger icon work on mobile devices. 
 
-### Media
-- The photos used in this site were obtained from ...
+Content
 
-### Acknowledgements
+Information in About section has been taken from band's old website:
+http://www.slammersmaxjive.co.uk/AlabamaSlammers.htm?fbclid=IwAR0qnX1BKDm5bA-c58S7pqqOYXaxd11-IsDUXZIkQwUYfGlxJz2mpU_KjGY
 
-- I received inspiration for this project from X
+Videos used for Video section were obtained from youtube:
+https://www.youtube.com/watch?v=ivWuaPif584
+https://www.youtube.com/watch?v=7eV37SKPwYE
+https://www.youtube.com/watch?v=PJPLx3NFUg8
+https://www.youtube.com/watch?v=5ozoHWw_uLk
+https://www.youtube.com/watch?v=Jfra1SlOsNI
+https://www.youtube.com/watch?v=VI1tDuUP7cg
+https://www.youtube.com/watch?v=4mjopzAXxsA
+https://www.youtube.com/watch?v=e4pFgMea_FA
+https://www.youtube.com/watch?v=AWaWPMiSlqI
+https://www.youtube.com/watch?v=gzrIl26FDlM
+https://www.youtube.com/watch?v=-KwcV1ZJnQg
+https://www.youtube.com/watch?v=UlHKi_jNo6A
+https://www.youtube.com/watch?v=IIz_FttFC7g&t=378s
+https://www.youtube.com/watch?v=cRHlAcjGVMI
+
+Media
+
+The photos used in this site and the permission to use them were given to me by a member of this band.
+
+Acknowledgements
+
+I caame up with a design and colour palette for this page inspired by 90's period of time and rockabilly style. 
