@@ -21,6 +21,11 @@ body {
 	background-size: cover;
 }
 
+.contact-ipad-bg {
+	background: url(assets/web-images/contact-background-ipad.jpg);
+	background-size: cover;
+}
+
 .tour-bg {
 	background-color: #4babdd;
 }
@@ -739,6 +744,50 @@ hr {
 		color: #fafafa;
 	}
 
+	/*--Contact forms*/
+
+	.uppercase {
+		text-transform: uppercase;
+		font-size: 25px;
+	}
+
+	.form-control {
+		height: 50px;
+	}
+
+	.form textarea {
+    height: 250px;
+    margin-bottom: 10px;
+}
+
+.form button {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+}
+
+.form1 {
+	margin-bottom: 60px;
+	margin-top: 30px;
+}
+
+.form input {
+    font-size: 20px;
+}
+
+.form textarea {
+    font-size: 20px;
+}
+
+.btn-secondary:hover {
+    background-color: #e8e66b;
+    color: #4babdd;
+}
+
+.btn-secondary2:hover {
+    background-color: #4babdd;
+    color: #e8e66b;
+}
 
 	/*--FOOTER*/
 
@@ -842,6 +891,32 @@ hr {
 		font-size: 30px;
 	}
 
+	/*--Contact forms*/
+
+	.form {
+    margin-top: 40px;
+}
+
+	.uppercase {
+		font-size: 30px;
+	}
+
+.form button {
+    height: 70px;
+    width: 240px;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.form input {
+    font-size: 25px;
+}
+
+.form textarea {
+    font-size: 25px;
+}
+
+
 	/*--parallax*/
 
 	.parallax {
@@ -857,6 +932,30 @@ hr {
 		padding: 20px 0 20px 0;
 
 	}
+
+	.event-date {
+		font-size: 30px;
+	}
+
+	.event {
+		font-size: 25px;
+	}
+
+	.event-place {
+		font-size: 28px;
+	}
+
+	.desktop-group {
+		margin-left: 30px;
+	}
+
+	.tickets {
+    font-size: 30px;
+    height: 80px;
+    width: 200px;
+	}
+
+
 
 	/*--Footer*/
 
