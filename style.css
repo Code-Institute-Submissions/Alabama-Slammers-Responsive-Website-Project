@@ -633,9 +633,6 @@ hr {
 		text-decoration: none;
 	}
 
-
-
-
 	.list-item {
 		position: relative;
 	}
@@ -649,7 +646,7 @@ hr {
 		margin: 0 auto;
 	}
 
-	/*--Parralax*/
+	/*--Parralax image*/
 
 	.parallax {
 		display: block;
@@ -666,23 +663,23 @@ hr {
 
 	.landing-video {
 		margin-top: 20px;
+		margin-bottom: 10px;
 		width: 100%;
 		height: 500px;
 	}
 
-
-
 	/*--CD*/
 
 	.cd-wrapper {
-		margin-bottom: 15px;
+		margin-bottom: 0px;
+		margin-top: 30px;
 	}
 
 	.songs {
-		font-size: 25px;
-		line-height: 35px;
+		font-size: 20px;
+		line-height: 30px;
 		margin-left: 10px;
-		font-weight: 600;
+		font-weight: 500;
 	}
 
 	/*--Full width buttons*/
@@ -692,6 +689,10 @@ hr {
 	}
 
 	/*--Subscribe*/
+
+	.subscribe-text {
+		margin-top: 20px;
+	}
 
 	.subscribe-text h5{
 		font-size: 30px;
@@ -742,7 +743,7 @@ hr {
 	/*--FOOTER*/
 
 	.footer {
-		margin-top: 15px;
+		margin-top: 20px;
 		bottom:0;
 	}
 
@@ -753,18 +754,82 @@ hr {
 	}
 
 	.icon-instagram {
-	display: inline-block;
-}
+		display: inline-block;
+	}
 
-.icon-facebook {
-	display: inline-block;
-}
+	.icon-facebook {
+		display: inline-block;
+	}
+
+	/*--Tour list*/
+
+	.tour {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		margin-top: 30px;
+		margin-bottom: 40px;
+	}
+
+	hr {
+		display: none;
+	}
+
+	.desktop-group {
+		text-align: left;
+		margin-left: 15px;
+	}
+
+	.event-date {
+		font-size: 21px;
+		margin-top: 10px;
+		text-transform: uppercase;
+	}
+
+	.event {
+		margin-bottom: 10px;
+		font-size: 20px;
+		font-weight: 400;
+	}
+
+	.event-place {
+		margin-top: 23px;
+		font-size: 20px;
+		margin-left: 30px;
+		text-transform: uppercase;
+	}
+
+	.tickets {
+    margin-top: 20px;
+    margin-left: 30px;
+	}
 
 }
 
 
 
 @media (min-width: 1024px) {
+
+	/*--NAV--*/
+
+	.list-item a {
+		font-size: 25px;
+	}
+
+	/*--Logo*/
+
+	.icon2 {
+		margin-top: 15px;
+		width: 250px;
+		height: auto;
+	}
+
+	/*--CD*/
+	.songs {
+		font-size: 30px;
+		line-height: 34px;
+		margin-left: 30px;
+		font-weight: 500;
+	}
 
 	/*--About text*/
 
@@ -784,6 +849,15 @@ hr {
 		width: 100%;
 	}
 
+	/*--Tour list*/
+.body-content {
+	min-height: 960px
+}
+	.tour {
+		padding: 20px 0 20px 0;
+
+	}
+
 	/*--Footer*/
 
 	.small-button {
@@ -792,7 +866,7 @@ hr {
 		font-size: 25px;
 		margin: 15px 25px 40px 25px;
 	}
-
+}
 
 
 
