@@ -103,6 +103,11 @@ body {
 	position: absolute;
 }
 
+.icon2 {
+	width: 100px;
+	height: auto;
+}
+
 
 
 .burger-icon{
@@ -155,6 +160,15 @@ body {
 .icon {
 	width: 60px;
 	height: auto;
+	margin: 0 10px 0 10px;	
+}
+
+.icon-instagram {
+	display: none;
+}
+
+.icon-facebook {
+	display: none;
 }
 
 .sticky-footer {
@@ -172,8 +186,15 @@ body {
 /*-------------------------------------------------Parralax*/
 
 .parallax {
-	width: 100%;
+	display: none;
 }
+
+.parallax-mobile {
+	width: 100%;
+	margin-top: 10px;
+}
+
+
 
 /*-------------------------------------------------Landing page Video*/
 
@@ -294,15 +315,17 @@ body {
 /*-------------------------------------------------About description*/
 
 .about-text{
-	margin-top: 50px;
+	margin-top: 30px;
 }
 
 .about-paragraph {
 	text-align: justify;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	font-weight: 500;
+	line-height: 18px;
+	font-size: 15px;
 	font-weight: 600;
-	line-height: 20px;
 }
 
 /*-------------------------------------------------About page buttons*/
@@ -313,13 +336,6 @@ body {
 }
 
 .small-button {
-	margin-top: 15px;
-	margin-bottom: 15px;
-
-
-}
-
-.small-button button {
 	background-color: #f36260;
 	border: solid 1px #f36260;
 	border-radius: 5px;
@@ -328,9 +344,13 @@ body {
 	letter-spacing: 2px;
 	font-weight: 300;
 	outline: none;
+	height: 30px;
+	width: 90px;
+	margin: 10px 5px 10px 5px;
+	font-size: 15px;
 }
 
-.small-button button:hover {
+.small-button:hover {
 	background-color: #4aabdc;
 	border: solid 1px #4aabdc;
 }
@@ -523,14 +543,13 @@ hr {
 
 
 	.float-center-fix {
-		float: left;
-		position: relative;
-		left: 50%;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
 	}
 	.float-center ul {
-		float: left;
-		position: relative;
-		left: -50%;
+		display: inline-flex;
 	}
 
 	.nav-wrapper {
@@ -559,8 +578,8 @@ hr {
 
 	.nav-wrapper ul {
 		text-align: center;
-		margin-top: 25px;
-		margin-bottom: 30px;
+		margin-top: 15px;
+		
 	}
 
 	.list-dropdown-item {
@@ -574,7 +593,7 @@ hr {
 		overflow: hidden;
 	}
 
-	li {
+	.main-nav li {
 		float: left;
 	}
 
@@ -601,6 +620,7 @@ hr {
 
 
 	.dropdown-content {
+		line-height: 15px;
 		display: none;
 		min-width: 160px;
 		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -625,15 +645,20 @@ hr {
 	}
 	/*--Aligment for all body items */
 	.body-content {
-		width: 80%;
+		width: 90%;
 		margin: 0 auto;
 	}
 
 	/*--Parralax*/
 
 	.parallax {
-		margin: 20px 0px 20px 0;
+		display: block;
 		width: 100%;
+		margin-top: 30px;
+	}
+
+	.parallax-mobile {
+		display: none;
 	}
 
 	/*--Landing page Video*/
@@ -642,7 +667,7 @@ hr {
 	.landing-video {
 		margin-top: 20px;
 		width: 100%;
-		height: 400px;
+		height: 500px;
 	}
 
 
@@ -655,20 +680,14 @@ hr {
 
 	.songs {
 		font-size: 25px;
-		line-height: 30px;
+		line-height: 35px;
 		margin-left: 10px;
 		font-weight: 600;
 	}
 
-	/*--FOOTER*/
-
-	.footer {
-		margin-top: 15px;
-	}
-
 	/*--Full width buttons*/
 	.btn-block {
-		height: 55px;
+		height: 70px;
 		font-size: 25px;
 	}
 
@@ -690,8 +709,92 @@ hr {
 	.subscribe {
 		font-size: 25px;
 	}
+	/*--Logo*/
 
+	.icon2 {
+		margin-top: 15px;
+		width: 200px;
+		height: auto;
+	}
+
+	/*--About text*/
+
+	.about-text {
+		margin-top: 40px;
+	}
+
+	.about-paragraph {
+		line-height: 30px;
+		font-size: 25px;
+	}
+
+	.small-button {
+		height: 50px;
+		width: 130px;
+		margin: 40px 25px 50px 25px;
+		font-size: 20px;
+		border: none;
+		background-color: #f36260;
+		color: #fafafa;
+	}
+
+
+	/*--FOOTER*/
+
+	.footer {
+		margin-top: 15px;
+		bottom:0;
+	}
+
+	.icon {
+		width: 80px;
+		height: auto;
+		margin-right: 20px;
+	}
+
+	.icon-instagram {
+	display: inline-block;
+}
+
+.icon-facebook {
+	display: inline-block;
+}
 
 }
+
+
+
+@media (min-width: 1024px) {
+
+	/*--About text*/
+
+	.about-text {
+		margin-bottom: 50px;
+	}
+
+	.about-paragraph {
+		line-height: 35px;
+		font-size: 30px;
+	}
+
+	/*--parallax*/
+
+	.parallax {
+		margin: 50px 0px 40px 0;
+		width: 100%;
+	}
+
+	/*--Footer*/
+
+	.small-button {
+		height: 70px;
+		width: 160px;
+		font-size: 25px;
+		margin: 15px 25px 40px 25px;
+	}
+
+
+
+
 
 
