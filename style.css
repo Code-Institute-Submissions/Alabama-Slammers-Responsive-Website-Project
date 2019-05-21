@@ -337,6 +337,9 @@ body {
 	font-weight: 600;
 }
 
+.about-image {
+	display: none;
+}
 /*-------------------------------------------------About page buttons*/
 
 .about-wrapper {
@@ -1044,6 +1047,54 @@ hr {
 .subscribe {
     font-size: 30px;
 }
+
+/* About page */
+
+.parallax-ipad {
+	display: none;
+}
+
+.parallax-desktop {
+	width: 100%;
+	margin-top: 50px;
+}
+
+.about-bg {
+	background: url(assets/web-images/about-background-desktop.jpg);
+}
+
+.about-text {
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 200px;
+}
+
+.about-paragraph {
+    line-height: 50px;
+    font-size: 35px;
+}
+
+.about-text br {
+	line-height: 50px;
+}
+
+.about-image {
+	display: block;
+	height: 400px;
+	width: auto;
+	float: right;
+}
+
+.small-button {
+    height: 80px;
+    width: 200px;
+    margin-top: 250px;
+    margin-bottom: 200px;
+    font-size: 25px;
+}
+
+
 
 }
 
