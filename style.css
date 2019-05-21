@@ -199,6 +199,10 @@ body {
 	margin-top: 10px;
 }
 
+.parallax-desktop {
+	display: none;
+}
+
 
 
 /*-------------------------------------------------Landing page Video*/
@@ -663,6 +667,10 @@ hr {
 		margin-top: 30px;
 	}
 
+	.parallax-desktop{
+		display: none;
+	}
+
 	.parallax-mobile {
 		display: none;
 	}
@@ -851,7 +859,7 @@ hr {
 
 	/*--Pictures page*/
 
-	.body-content {
+	.body-content-images {
 		display: grid; 
 		grid-template-columns: 50% 50%; 
 		grid-gap: 0.5em 0.5em;
@@ -905,7 +913,6 @@ hr {
 		animation-duration: 0.6s;
 	}
 
-
 	@-webkit-keyframes zoom {
 		from {-webkit-transform:scale(0)} 
 		to {-webkit-transform:scale(1)}
@@ -928,118 +935,121 @@ hr {
 
 
 
+/*-------------------------------------------------Desktop Media Queries */
+
 @media (min-width: 1024px) {
-
-	/*--NAV--*/
-
-	.list-item a {
-		font-size: 25px;
-	}
-
-	/*--Logo*/
-
-	.icon2 {
-		margin-top: 15px;
-		width: 250px;
-		height: auto;
-	}
-
-	/*--CD*/
-	.songs {
-		font-size: 30px;
-		line-height: 34px;
-		margin-left: 30px;
-		font-weight: 500;
-	}
-
-	/*--About text*/
-
-	.about-text {
-		margin-bottom: 50px;
-	}
-
-	.about-paragraph {
-		line-height: 35px;
-		font-size: 30px;
-	}
-
-	/*--Contact forms*/
-
-	.form {
-		margin-top: 40px;
-	}
-
-	.uppercase {
-		font-size: 30px;
-	}
-
-	.form button {
-		height: 70px;
-		width: 240px;
-		font-size: 25px;
-		margin-bottom: 30px;
-	}
-
-	.form input {
-		font-size: 25px;
-	}
-
-	.form textarea {
-		font-size: 25px;
+	.float-center-fix {
+		display: inline;
+		float: right;
 	}
 
 
-	/*--parallax*/
-
-	.parallax {
-		margin: 50px 0px 40px 0;
-		width: 100%;
+	.logo {
+		margin-top: 0px;
+		position: absolute;
+		margin-left: 15px;
 	}
 
-	/*--Tour list*/
-	.body-content {
-		min-height: 960px
-	}
-	.tour {
-		padding: 20px 0 20px 0;
+.list-item a {
+    font-size: 20px;
+}
 
-	}
+.body-content-desktop {
+	width: 100%;
+}
 
-	.event-date {
-		font-size: 30px;
-	}
+.parallax {
+    width: 40%;
+     margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
 
-	.event {
-		font-size: 25px;
-	}
+.parallax-desktop {
+	display: block;
+	width: 90%; 
+	margin: 0 auto;
+}
+/* Video */
+.landing-video {
+	display: block;
+	 margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 90%;
+    height: 700px;
+}
 
-	.event-place {
-		font-size: 28px;
-	}
+.btn-block {
+    width: 90%;
+    margin-left: auto 0;
+    height: 100px;
+    font-size: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 
-	.desktop-group {
-		margin-left: 30px;
-	}
+/* CD */
 
-	.tickets {
-		font-size: 30px;
-		height: 80px;
-		width: 200px;
-	}
+.cd-wrapper {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.btn-secondary:hover {
+    background-color: #48a9e0;
+    color: #e8e66c;
+}
 
+.songs {
+    font-size: 35px;
+    line-height: 53px;
+    margin-left: 50px;
+    font-weight: 500;
+}
 
-	/*--Footer*/
+/* Subwcribe */
 
-	.small-button {
-		height: 70px;
-		width: 160px;
-		font-size: 25px;
-		margin: 15px 25px 40px 25px;
-	}
+.subscribe-text {
+    width: 90%;
+    margin: auto;
+    height: 120px;
+}
+
+.subscribe-text h5 {
+    font-size: 40px;
+     letter-spacing: 5px;
+}
+
+.subscribe-text p {
+    font-size: 26px;
+    letter-spacing: 3px;
+}
+
+#subscribe-form {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    height: 60px;
+}
+
+.email {
+    font-size: 30px;
+}
+
+.subscribe {
+    font-size: 30px;
+}
+
 }
 
 
 
 
+	
+	
 
