@@ -1,3 +1,5 @@
+# <img src="https://github.com/EvaBroberg/Alabama-Slammers-Responsive-Website-Project/blob/master/assets/web-images/logo.png?raw=true"/>
+
 # Alabama Slammers Responsive Website Project
 
 A Website created in order to represent an online presence for a 90's rockabilly/ swing band "Alabama Slammers".
