@@ -245,7 +245,7 @@ body {
 
 .cd-wrapper {
 	display: grid;
-	grid-template-columns: 50% 50%;
+	grid-template-columns: 1fr 1fr;
 	margin-top: 15px;
 
 }
@@ -368,6 +368,11 @@ body {
 }
 
 /*-------------------------------------------------Spotify*/
+
+
+.music-button {
+	display: none;
+}
 
 .spotify-playlist {
 	margin-top: 5px;
@@ -655,10 +660,12 @@ hr {
 	/*--Aligment for all body items */
 	.body-content {
 		width: 90%;
-		margin: 0 auto;
+		margin-right: auto;
+		margin-left: auto;
 	}
 
 	.body-content-images {
+			width: 98%;
 		margin-top: 10px;
 	}
 
@@ -864,7 +871,7 @@ hr {
 
 	.body-content-images {
 		display: grid; 
-		grid-template-columns: 50% 50%; 
+		grid-template-columns: 1fr 1fr; 
 		grid-gap: 0.5em 0.5em;
 	}
 
@@ -940,7 +947,7 @@ hr {
 
 /*-------------------------------------------------Desktop Media Queries */
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
 	.float-center-fix {
 		display: inline;
 		float: right;
@@ -1055,7 +1062,7 @@ hr {
 }
 
 .parallax-desktop {
-	width: 100%;
+	width: 90%;
 	margin-top: 50px;
 }
 
@@ -1094,6 +1101,88 @@ hr {
     font-size: 25px;
 }
 
+/* Vide0 and pictures pages */
+
+.pictures-bg {
+	min-height: 3280px;
+}
+
+.video-bg {
+	min-height: 1480px;
+}
+
+
+.body-content {
+    width: 98%;
+}
+
+.body-content-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5em 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video {
+    height: 300px;
+}
+
+/* Music page */
+
+.body-content-music {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    margin-top:50px;
+    min-height: 700px;
+    
+}
+
+.cd-cover {
+    height: 500px;
+    width: auto;
+   float: right;
+}
+
+.spotify-playlist {
+    margin-top: 0px;
+    height: 500px;
+    min-width: 600px;
+}
+
+.music-button {
+	display: block;
+	width: 300px;
+}
+
+/* Tour page */
+
+.body-content-tour {
+	margin-top: 70px;
+	min-height: 1020px;
+    width: 80%;
+}
+
+.tickets {
+    margin-right: 15px;
+    float: right;
+}
+
+/* Contact page */
+.body-content-contact {
+	min-height: 1070px;
+}
+
+.form {
+	width: 600px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.form2 {
+	margin-top: 150px;
+}
 
 
 }
