@@ -1,6 +1,9 @@
-# <img src="https://github.com/EvaBroberg/Alabama-Slammers-Responsive-Website-Project/blob/master/assets/web-images/logo.png?raw=true"/>
+# <a href="https://evabroberg.github.io/Alabama-Slammers-Responsive-Website-Project/"><img src="https://github.com/EvaBroberg/Alabama-Slammers-Responsive-Website-Project/blob/master/assets/web-images/logo.png?raw=true"/></a>
 
-# Alabama Slammers Responsive Website Project
+
+# Responsive Web-Design
+<a href="https://evabroberg.github.io/Alabama-Slammers-Responsive-Website-Project/">Check out the website</a>
+<a href="https://github.com/EvaBroberg/Alabama-Slammers-Responsive-Website-Project/">Check out the code</a>
 
 A Website created in order to represent an online presence for a 90's rockabilly/ swing band "Alabama Slammers".
  
