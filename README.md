@@ -133,8 +133,8 @@ The Contact page features two contact forms, which requires users name and email
 
 <h2>Testing</h2>
 
-Testing information can be found in separate 
-<a href="https://github.com/EvaBroberg/Alabama-Slammers-Responsive-Website-Project/blob/master/testing.md">testing.md file</a>
+Testing information can be found in separate <a href="https://github.com/EvaBroberg/Alabama-Slammers-Responsive-Website-Project/blob/master/testing.md">testing.md file</a> 
+
 
 <h2>Deployment</h2>
 
@@ -179,21 +179,21 @@ Take following actions in order to run this project locally:
 <ul>
 	<li>All the photos used in this website were provided by the bass player of the band - Neale Hobday</li>
 	<li>Videos were gathered from different YouTube channels<ul>
-		<li><a href="https://www.youtube.com/watch?v=ivWuaPif584"></a>Video1</li>
-		<li><a href="https://www.youtube.com/watch?v=7eV37SKPwYE"></a>Video2</li>
-		<li><a href="https://www.youtube.com/watch?v=7eV37SKPwYE"></a>Video3</li>
-		<li><a href="https://www.youtube.com/watch?v=PJPLx3NFUg8"></a>Video4</li>
-		<li><a href="https://www.youtube.com/watch?v=5ozoHWw_uLk"></a>Video5</li>
-		<li><a href="https://www.youtube.com/watch?v=Jfra1SlOsNI"></a>Video6</li>
-		<li><a href="https://www.youtube.com/watch?v=VI1tDuUP7cg"></a>Video7</li>
-		<li><a href="https://www.youtube.com/watch?v=4mjopzAXxsA"></a>Video8</li>
-		<li><a href="https://www.youtube.com/watch?v=e4pFgMea_FA"></a>Video9</li>
-		<li><a href="https://www.youtube.com/watch?v=AWaWPMiSlqI"></a>Video10</li>
-		<li><a href="https://www.youtube.com/watch?v=gzrIl26FDlM"></a>Video11</li>
-		<li><a href="https://www.youtube.com/watch?v=-KwcV1ZJnQg"></a>Video12</li>
-		<li><a href="https://www.youtube.com/watch?v=UlHKi_jNo6A"></a>Video13</li>
-		<li><a href="https://www.youtube.com/watch?v=IIz_FttFC7g&t=378s"></a>Video14</li>
-		<li><a href="https://www.youtube.com/watch?v=cRHlAcjGVMI"></a>Video15</li>
+		<a href="https://www.youtube.com/watch?v=ivWuaPif584"><li>Video1</li></a>
+		<a href="https://www.youtube.com/watch?v=7eV37SKPwYE"><li>Video2</li></a>
+		<a href="https://www.youtube.com/watch?v=7eV37SKPwYE"><li>Video3</li></a>
+		<a href="https://www.youtube.com/watch?v=PJPLx3NFUg8"><li>Video4</li></a>
+		<a href="https://www.youtube.com/watch?v=5ozoHWw_uLk"><li>Video5</li></a>
+		<a href="https://www.youtube.com/watch?v=Jfra1SlOsNI"><li>Video6</li></a>
+		<a href="https://www.youtube.com/watch?v=VI1tDuUP7cg"><li>Video7</li></a>
+		<a href="https://www.youtube.com/watch?v=4mjopzAXxsA"><li>Video8</li></a>
+		<a href="https://www.youtube.com/watch?v=e4pFgMea_FA"><li>Video9</li></a>
+		<a href="https://www.youtube.com/watch?v=AWaWPMiSlqI"><li>Video10</li></a>
+		<a href="https://www.youtube.com/watch?v=gzrIl26FDlM"><li>Video11</li></a>
+		<a href="https://www.youtube.com/watch?v=-KwcV1ZJnQg"><li>Video12</li></a>
+		><a href="https://www.youtube.com/watch?v=UlHKi_jNo6A"><li>Video13</li></a>
+		<a href="https://www.youtube.com/watch?v=IIz_FttFC7g&t=378s"><li>Video14</li></a>
+		<a href="https://www.youtube.com/watch?v=cRHlAcjGVMI"><li>Video15</li></a>
 	</ul></li>
 </ul>
 

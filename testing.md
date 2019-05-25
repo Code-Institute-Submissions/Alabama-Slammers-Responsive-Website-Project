@@ -1,6 +1,6 @@
 <h1>Alabama-Slammers Testing</h1>
 
-<a href="https://github.com/EvaBroberg/Alabama-Slammers-Responsive-Website-Project/edit/master/README.md">Main ReadMe.md File</a>
+<a href="https://github.com/EvaBroberg/Alabama-Slammers-Responsive-Website-Project/edit/master/README.md">Main ReadMe.md File</a><br>
 <a href="https://evabroberg.github.io/Alabama-Slammers-Responsive-Website-Project/">Alabama Slammers page</a>
 
 <h2>Automated Testing</h2>
