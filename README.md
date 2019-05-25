@@ -2,10 +2,20 @@
 
 
 # Responsive Web-Design
-<a href="https://evabroberg.github.io/Alabama-Slammers-Responsive-Website-Project/">Check out the website</a>
-<a href="https://github.com/EvaBroberg/Alabama-Slammers-Responsive-Website-Project/">Check out the code</a>
+<a href="https://evabroberg.github.io/Alabama-Slammers-Responsive-Website-Project/" style="text-align: center;">Check out the website</a><br>
+<a href="https://github.com/EvaBroberg/Alabama-Slammers-Responsive-Website-Project/" style="text-align: center;">Check out the code</a>
 
-A Website created in order to represent an online presence for a 90's rockabilly/ swing band "Alabama Slammers".
+A responsive website for a rock'n'roll/Swing/Rythm & Blues band "Alabama Slammers". Website consists of eight pages featuring home page which consists of a video from latest concert an option to buy newest CD and the subscription to the mailing list, two galleries for band's tour pictures and videos, page for listening and purchasing latest music, about page providing a brief history of the band, a page dedicated to check out tour dates and purchase tickets and a contact page which provides user with two different contact options depending on the reason for getting in touch. 
+
+The primary purpose of this page is to create an online presence for the band that would fully represent what they are trying to comunicate through their band image and music style. 
+
+<ol>Long term goals for the page are:
+<li>To keep current fan base informed about latest news and events as well as provide fans a place to track new releases and purchase media and tickets in one place providing convenience and motivation to come back.</li>
+
+<li>To gain new fans providing a decade appropriate style and feel for the page as well as an easy way of navigation and buttons linkink pages that would encourage new uset to check all the content and stay on the page as long as possible</li>
+</ol>
+
+Disclaimer: Band does not longer exist and this page was created purely for educational purposes.
  
 UX
  
