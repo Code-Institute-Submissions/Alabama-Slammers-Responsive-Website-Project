@@ -6,23 +6,18 @@ body {
 }
 
 /*-------------------------------------------------BACKGROUNDS FOR DIFFERENT PAGES*/
-.home-bg, .music-bg, .pictures-bg {
+.home-bg, .pictures-bg {
 	background: url(assets/web-images/landing-background.jpg);
 	background-size: cover;
 }
 
-.about-bg, .video-bg {
+.about-bg, .music-bg, .video-bg {
 	background: url(assets/web-images/about-background.jpg);
 	background-size: cover;
 }
 
 .contact-bg {
 	background: url(assets/web-images/contact-background.jpg);
-	background-size: cover;
-}
-
-.contact-ipad-bg {
-	background: url(assets/web-images/contact-background-ipad.jpg);
 	background-size: cover;
 }
 
@@ -241,6 +236,10 @@ body {
 	color: #e6e66e;
 }
 
+.btn-booking:hover {
+    background-color: #e8e66b;
+    color: #4babdd;
+}
 /*-------------------------------------------------BUY CD*/
 
 .cd-wrapper {
@@ -552,9 +551,16 @@ hr {
 }
 
 
+
+
 /*-------------------------------------------------iPad Media Queries*/
 
 @media (min-width: 768px) {
+
+	.contact-ipad-bg {
+	background: url(assets/web-images/contact-background-ipad.jpg);
+	background-size: cover;
+}
 
 	/*--NAV--*/
 
@@ -801,16 +807,6 @@ hr {
 		font-size: 20px;
 	}
 
-	.btn-secondary:hover {
-		background-color: #e8e66b;
-		color: #4babdd;
-	}
-
-	.btn-secondary2:hover {
-		background-color: #4babdd;
-		color: #e8e66b;
-	}
-
 	.icon {
 		width: 80px;
 		height: auto;
@@ -1014,6 +1010,11 @@ hr {
     color: #e8e66c;
 }
 
+.btn-booking:hover {
+    background-color: #e8e66b;
+    color: #4babdd;
+}
+
 .songs {
     font-size: 35px;
     line-height: 53px;
@@ -1139,6 +1140,12 @@ hr {
 }
 
 .cd-cover {
+    height: auto;
+    width: 100%;
+   float: right;
+}
+
+.cd-cover-music {
     height: 500px;
     width: auto;
    float: right;
