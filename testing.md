@@ -1,16 +1,16 @@
-#Alabama-Slammers Testing
+<h1>Alabama-Slammers Testing</h1>
 
-<a href="">Main ReadMe.md File</a>
-<a href="">Alabama Slammers page</a>
+<a href="https://github.com/EvaBroberg/Alabama-Slammers-Responsive-Website-Project/edit/master/README.md">Main ReadMe.md File</a>
+<a href="https://evabroberg.github.io/Alabama-Slammers-Responsive-Website-Project/">Alabama Slammers page</a>
 
-#Automated Testing
+<h2>Automated Testing</h2>
 
 <ul>
 	<li><a href="https://validator.w3.org/">W3C Markup Validation</a> was used to test HTML code.</li>
 	<li><a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validation</a> was used to test CSS code.</li>
 </ul>
 
-#Client stories testing
+<b>User journey</b>
 
 Most common path through the website:
 
@@ -20,7 +20,7 @@ Some pages offer few different possible paths in their call to action buttons:
 From Home > Videos
 From About > Photos OR Videos to Music
 
-#Testing client stories from UX section of README.md
+<b>Testing client stories from UX section of README.md</b>
 
 <ol>
 	<li>As an old fan of the band, I want to be able to access tour dates and see the newest gigs first, I want an easy access to buy tickets fast, I also want to be updated about any news regarding the band via email. <ul>
@@ -40,11 +40,11 @@ From About > Photos OR Videos to Music
 	</ul></li>
 </ol>
 
-#Manual Testing
+<h2>Manual Testing</h2>
 
-<h2>Home Page</h2>
+<h3>Home Page</h3>
 
-Navigation menu
+<b>Navigation menu</b>
 
 <ul>
 	<li>Change the screen size from desktop to tablet and then to mobile  to verify that the navigation bar is responsive and switches from inline to an inline with logo on top and finally to burger icon dropdown menu.</li>
@@ -59,21 +59,21 @@ Navigation menu
 	<li>Repeat verification of functionality and responsiveness on mobile phone and tablet.</li>
 </ul>
 
-Hero image (Logo)
+<b>Hero image (Logo)</b>
 
 <ul>
 	<li>Check that Hero image is visable on all the devices</li>
 	<li>resize and check that image scales nicely without affecting layout of the page and positioning of other items</li>
 </ul>
 
-Hero image (Band members)
+<b>Hero image (Band members)</b>
 
 <ul>
 	<li>Check that Hero image is visable on desktop and resize to make sure it dissapears on mobile devices</li>
 	<li>resize image within desktop scale and make sure it resizes without affecting layout of the page and positioning of other items</li>
 </ul>
 
-Home Page Video
+<b>Home Page Video</b>
 
 <ul>
 	<li>Resize and check that video is always aligned in the center</li>
@@ -83,7 +83,7 @@ Home Page Video
 </ul>
 
 
-Album and buy CD
+<b>Album and buy CD</b>
 
 <ul>
 	<li>resze screen and make sure it remains unchanges through the scaling </li>
@@ -91,7 +91,7 @@ Album and buy CD
 	<li>Click the call to action button under the video to make sure it redirects to external website where user can make a purchase</li>
 </ul>
 
-Mailing list form
+<b>Mailing list form</b>
 
 <ul>
 	<li>Scale and make sure form resizes nicelly on all devices</li>
@@ -99,7 +99,7 @@ Mailing list form
 	<li>Submit the form with entering email</li>
 </ul>
 
-Footer
+<b>Footer</b>
 
 <ul>
 	<li>Click on each social media icon to confirm it opens a separate tab for it's link.</li>
@@ -109,32 +109,32 @@ Footer
 
 <h2>About Page</h2>
 
-Navigation menu
+<b>Navigation menu</b>
 
 <ul>
 	<li>Repeat verification steps done for navbar on Home page.</li>
 	<li>Check if navbar code is same on all html pages.</li>
 </ul>
 
-Hero image
+<b>Hero image</b>
 
 <ul>
 	<li>Resize to verify that the hero image changes to different design for mobile devices and is not affecting layout of the page</li>
 </ul>
 
-Image under the coopy
+<b>Image under the coopy</b>
 
 <ul>
 	<li>resize and make sure image is only visable on the desktop view</li>
 </ul>
 
-Page content
+<b>Page content</b>
 
 <ul>
 	<li>Resize to make sure that text and background image scales as expected and looks good on all devices</li>
 </ul>
 
-Call to action buttons
+<b>Call to action buttons</b>
 
 
 <ul>
@@ -144,7 +144,7 @@ Call to action buttons
 </ul>
 
 
-Footer
+<b>Footer</b>
 
 <ul>
 	<li>Repeat verification steps done for footer on Home page.</li>
@@ -161,9 +161,9 @@ Footer
 	<li>Press each link on Media drop-down list to make sure it redirects to appropriate page</li>
 </ul>
 
-#Pictures
+<h3>Pictures</h3>
 
-Page content
+<b>Page content</b>
 
 <ul>
 	<li>Resize screen and make sure that images scale nicelly from 4 to 2 and to 1 columns depending on screen size</li>
@@ -171,7 +171,7 @@ Page content
 	<li>Click on each image to make sure that it enlarges to 100% once clicked</li>
 </ul>
 
-Footer
+<b>Footer</b>
 
 <ul>
 	<li>Scroll down the page to make sure that footer is sticky but otherwise identical to the rest of the website</li>
@@ -180,20 +180,20 @@ Footer
 
 <h2>Videos</h2>
 
-Page content
+<b>Page content</b>
 
 <ul>
 	<li>Resize screen and make sure that images scale nicelly from 4 to 2 and to 1 columns depending on screen size</li>
 	<li>Click on each video to make sure it works</li>
 </ul>
 
-Footer
+<b>Footer</b>
 
 <ul>
 	<li>Scroll down the page to make sure that footer is sticky but otherwise identical to the rest of the website</li>
 </ul>
 
-<h2>Music</h2>
+<h3>Music</h3>
 
 <ul>
 	<li>Scale and make sure that positioning of the CD image and music player changes from inline to block for mobile devices and that call to action button dissapears on mobile devices</li>
@@ -202,7 +202,7 @@ Footer
 </ul>
 
 
-<h2>Tour</h2>
+<h3>Tour</h3>
 
 <ul>
 	<li>resize and make sure that while the boxes of content remain stacked on top of each other text changes from inline to block for mobile devices</li>
@@ -210,7 +210,7 @@ Footer
 </ul>
 
 
-<h2>Contact page</h2>
+<h3>Contact page</h3>
 
 <ul>
 	<li>Resize to make sure that forms align the way expected and design remins unchanged</li>
@@ -220,7 +220,7 @@ Footer
 </ul>
 
 
-#Further Testing
+<h2>Further Testing</h2>
 
 <ul>
 	<li>Friends and family were asked to check the website on all devices they had and provide opinion on design and functionality</li>
