@@ -5,22 +5,21 @@
 <div style="text-align: center;"><a href="https://evabroberg.github.io/Alabama-Slammers-Responsive-Website-Project/">Check out the website</a><br>
 	<a href="https://github.com/EvaBroberg/Alabama-Slammers-Responsive-Website-Project/">Check out the code</a></div>
 
-	A responsive website for a rock'n'roll/Swing/Rythm & Blues band "Alabama Slammers". Website consists of seven pages featuring home page which consists of a video from latest concert an option to buy newest CD and the subscription to the mailing list, two galleries for band's tour pictures and videos, page for listening and purchasing latest music, about page providing a brief history of the band, a page dedicated to check out tour dates and purchase tickets and a contact page which provides user with two different contact options depending on the reason for getting in touch. 
+A responsive website for a rock'n'roll/Swing/Rythm & Blues band "Alabama Slammers". Website consists of seven pages featuring home page which consists of a video from latest concert an option to buy newest CD and the subscription to the mailing list, two galleries for band's tour pictures and videos, page for listening and purchasing latest music, about page providing a brief history of the band, a page dedicated to check out tour dates and purchase tickets and a contact page which provides user with two different contact options depending on the reason for getting in touch.
 
-	The primary purpose of this page is to create an online presence for the band that would fully represent what they are trying to comunicate through their band image and music style, encourage current fan base to stay involved and attract new potential fans. 
+The primary purpose of this page is to create an online presence for the band that would fully represent what they are trying to comunicate through their band image and music style, encourage current fan base to stay involved and attract new potential fans.
 
-	Website goals:
+Website goals:
 
-	<ul>
+<ul>
 	<li>Create attractive brand image</li>
 	<li>Encourage to purchase tickets to shows and CDs</li>
 	<li>Grow fan base by providing enough media to rise interest in the band</li>
 	<li>Provide an option to represent and book the band providing contact forms leading to the correct person to contact for each purpose</li>
-</ul>
+	</ul>
 
-Disclaimer: Band does not longer exist and this page was created purely for educational purposes.
 
-#UX
+<h1>UX</h1>
 
 <h2>Target market</h2>
 
@@ -50,7 +49,7 @@ Website is responsive, understandable and easy to usse. All the sections are cle
 <h2>Wireframe mockups</h2>
 
 <ul>
-	<li><a href="" target="_blank">Home</a></li>
+	<li><a href="https://github.com/EvaBroberg/Alabama-Slammers-Responsive-Website-Project/blob/master/wireframes/combo/landing-page.jpg?raw=true" target="_blank">Home</a></li>
 	<li><a href="" target="_blank">About</a></li>
 	<li><a href="" target="_blank">Pictures</a></li>
 	<li><a href="" target="_blank">Videos</a></li>
