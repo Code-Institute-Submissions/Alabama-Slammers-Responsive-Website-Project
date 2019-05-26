@@ -96,7 +96,7 @@ From About > Photos OR Videos to Music
 <ul>
 	<li>Scale and make sure form resizes nicely on all devices</li>
 	<li>Press Subscribe button without entering email to make sure it requires it</li>
-	<li>Submit the form with entering email</li>
+	<li>Submit the form with entering email checke that form is submitted (Form works as expected locally, however once uploaded to github goes to page "405 Not Allowed" issue was adressed with mentor and left unfixed since it has to do with github hosting and not the code)</li>
 </ul>
 
 <b>Footer</b>
