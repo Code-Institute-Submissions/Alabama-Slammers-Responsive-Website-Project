@@ -1069,6 +1069,7 @@ hr {
 
 .about-bg {
 	background: url(assets/web-images/about-background-desktop.jpg);
+	background-size: cover;
 }
 
 .about-text {
